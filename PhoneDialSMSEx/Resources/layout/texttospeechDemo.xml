@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+   <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTS"
+        android:hint="Enter to Speak"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"/>
+
+   
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:id="@+id/buttonTS1"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"/>
+
+    
+   <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTS1"
+        android:hint="Enter to Speak"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locale"
+        android:id="@+id/buttonTS3"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"/>
+</LinearLayout>
